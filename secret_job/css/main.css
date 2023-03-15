@@ -1,0 +1,1447 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap');
+
+@font-face {
+    font-family: 'Metropolis-Semibold';
+    src: url(fonts\Metropolis-SemiBold.otf);
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 30px;
+}
+
+
+
+/* HEADER */
+
+.header {
+    padding-top: 46px;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    width: 109px;
+    height: 53px;
+    left: 167px;
+    top: 27px;
+
+
+    background: url(logo1.svg);
+}
+
+/* NAV */
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 823px;
+    height: 24px;
+    left: 420px;
+    top: 40px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.nav-link {
+    display: flex;
+}
+
+.header-search {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 500px;
+    top: -688px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+.nav-item1 a {
+    /* About Gallery Pricin */
+
+
+    width: 52px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-item2 a {
+    /* About Gallery Pricin */
+
+    width: 30px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nav-item3 a {
+    /* About Gallery Pricin */
+
+    width: 91px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+
+.nav-item4 a {
+    /* About Gallery Pricin */
+
+    width: 80px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.nav-item5 a {
+    /* About Gallery Pricin */
+
+    width: 90px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.nav-item6 a {
+    /* About Gallery Pricin */
+
+    width: 90px;
+    height: 20px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.bar-header {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+    gap: 10px;
+
+    position: absolute;
+    width: 108px;
+    height: 36px;
+    right: 159px;
+    top: 35px;
+
+    /* Primary/100% */
+
+    background: #ED017F;
+    border-radius: 4px;
+}
+
+.bar-header p {
+    /* Button */
+
+
+    width: 68px;
+    height: 20px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-right {
+    position: relative;
+    width: 1000px;
+    height: 682px;
+    right: -918px;
+    top: -49px;
+
+    background: #FFEAF5;
+}
+
+.header-big {
+    /* Picture/Big */
+    position: relative;
+    width: 970px;
+    height: 729px;
+    left: 33px;
+    top: 64px;
+}
+
+.header-heading {
+    position: absolute;
+    width: 453px;
+    height: 136px;
+    left: 165px;
+    top: 222px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 63px;
+    line-height: 68px;
+    /* or 108% */
+
+
+    /* Black/100% */
+
+    color: #010101;
+
+}
+
+.header-content p {
+    position: absolute;
+    width: 380px;
+    height: 44px;
+    left: 165px;
+    top: 381px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+
+    /* Black/60% */
+
+    color: #676767;
+}
+
+.button-header1 {
+    width: 157px;
+    height: 46px;
+    background: #ED017F;
+    border-radius: 4px;
+}
+
+.button-header1 p {
+
+    height: 20px;
+    left: 14.06%;
+    right: 14.6%;
+    top: calc(50% - 20px/2);
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.button-header2 {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 20px;
+    gap: 10px;
+
+    width: 188px;
+    height: 46px;
+
+    /* Primary/100% */
+
+    border: 1px solid #ED017F;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button-header2 p {
+    height: 20px;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Primary/100% */
+
+    color: #ED017F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 365px;
+    height: 46px;
+    left: 165px;
+    top: 463px;
+}
+
+.button-header3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 27px;
+    gap: 19px;
+
+    position: absolute;
+    width: 191.65px;
+    height: 71px;
+    left: -71px;
+    top: 144px;
+
+    /* White */
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    border-radius: 55px;
+}
+
+.right-btn1 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 27px;
+    gap: 19px;
+
+    position: absolute;
+    width: 191.65px;
+    height: 71px;
+    left: -71px;
+    top: 144px;
+
+    /* White */
+    background: #FFFFFF;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    border-radius: 55px;
+}
+
+.right-btn1 p {
+    width: 88px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height, or 122% */
+
+    /* Black/80% */
+    color: #343434;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.right-btn2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 27px;
+    gap: 19px;
+
+    position: absolute;
+    width: 204.65px;
+    height: 71px;
+    left: 710px;
+    top: 256px;
+
+    /* White */
+    background: #FFFFFF;
+
+    /* Normal */
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    border-radius: 56px;
+}
+
+.right-btn2 p {
+    width: 101px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* identical to box height, or 122% */
+
+    /* Black/80% */
+    color: #343434;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.right-ellipse {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    position: absolute;
+    width: 13px;
+    height: 91px;
+    left: 950px;
+    top: 457px;
+
+}
+
+.ellipse1 {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    /* Primary/60% */
+
+    background: #F467B2;
+    /* Normal */
+
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 265px;
+    height: 24px;
+    left: 155px;
+    top: 780px;
+
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 11px;
+
+    width: 85px;
+    height: 24px;
+
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.call {
+    width: 40px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contacts a {
+    width: 50px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height, or 129% */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    /* Black/100% */
+
+    color: #010101;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.line1 {
+    position: relative;
+    top: 10px;
+    width: 24px;
+    height: 0px;
+    left: 0px;
+
+    /* Black/20% */
+
+    border: 1px solid #CCCCCC;
+    transform: rotate(90deg);
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.socials {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 144px;
+    height: 24px;
+    bottom: 1px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.services {
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: 8px;
+    top: 772px;
+
+}
+
+.container-heading {
+    position: absolute;
+    width: 795px;
+    height: 43px;
+    left: 550px;
+    top: 200px;
+
+    /* Menu */
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 119% */
+
+    text-align: center;
+
+    /* Black/80% */
+
+    color: #343434;
+}
+
+.container p {
+    position: relative;
+    width: 660px;
+    height: 44px;
+    left: 610px;
+    top: 265px;
+
+    /* Subtitle */
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    text-align: center;
+
+    /* Black/40% */
+
+    color: #999999;
+}
+
+.services {
+    display: flex;
+}
+
+.services-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 39px;
+
+    position: absolute;
+    width: 1230px;
+    height: 231px;
+    left: 135px;
+    top: 283px;
+}
+
+.service1 {
+    position: relative;
+    width: 37px;
+    height: 37px;
+}
+
+/* CARD */
+.services-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+
+    width: 259px;
+    height: 231px;
+    top: 170px;
+    left: 110px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.service-card-title {
+    width: 93px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 1 */
+.services-card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+
+    width: 259px;
+    height: 231px;
+    right: 450px;
+    top: 170px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.service-card-title1 {
+    width: 142px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card1 p {
+    width: 160px;
+    height: 72px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 2 */
+.services-card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+
+    width: 259px;
+    height: 231px;
+    top: 170px;
+    left: 590px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+
+    flex-grow: 0;
+}
+
+.service-card-title2 {
+    width: 97px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card2 p {
+    width: 160px;
+    height: 72px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 3 */
+.services-card3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+
+    width: 259px;
+    height: 231px;
+    top: 170px;
+    left: 665px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+
+    flex-grow: 0;
+}
+
+.service-card-title3 {
+    width: 114px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card3 p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD DOWN*/
+.services-card-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 39px;
+
+    position: absolute;
+    width: 1230px;
+    height: 231px;
+    left: 243px;
+    top: 710px;
+}
+
+/* CARD 4 */
+.services-card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+
+    width: 259px;
+    height: 231px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.service-card-title4 {
+    width: 147px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card4 p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 5 */
+.services-card5 {
+    /* Auto layout */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;  
+    left: 90px;
+
+    width: 259px;
+    height: 231px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.service-card-title5 {
+    width: 128px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card5 p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 6 */
+.services-card6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+    left: 160px;
+
+    width: 259px;
+    height: 231px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.service-card-title6 {
+    width: 111px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card6 p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* CARD 7 */
+.services-card7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 18px;
+    left: 230px;
+
+    width: 259px;
+    height: 231px;
+
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.service-card-title7 {
+    width: 71px;
+    height: 22px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height, or 100% */
+
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.services-card7 p {
+    width: 160px;
+    height: 96px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* Black/40% */
+
+    color: #999999;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.partners {
+    position: absolute;
+    width: 1440px;
+    height: 449px;
+    left: 0px;
+    top: 1900px;
+
+    background: rgba(252, 224, 239, 0.2);
+}
+
+.partners-head {
+    position: absolute;
+    width: 278px;
+    height: 23px;
+    left: 830px;
+    top: 78px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 2.1px;
+
+    /* Black/80% */
+
+    color: #343434;
+
+}
+
+.partners-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 67px;
+
+    position: absolute;
+    width: 1450px;
+    height: 110.36px;
+    left: 250px;
+    top: 200px;
+
+}
+
+.partners-ellipse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+
+    position: absolute;
+    width: 91px;
+    height: 13px;
+    left: 920px;
+    top: 400px;
+}
+ 
+.ellipse5 {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #F467B2;
+    box-shadow: 4px 4px 58px rgba(0, 0, 0, 0.12);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
