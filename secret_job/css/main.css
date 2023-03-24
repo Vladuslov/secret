@@ -1593,4 +1593,165 @@ top: 140px;
     flex: none;
     order: 1;
     flex-grow: 0;
-    }
+}
+
+.service {
+    /* Frame 1 */
+    position: absolute;
+    width: 1440px;
+    height: 842px;
+    left: 0px;
+    top: 2990px;
+
+    background: #FEF9FC;
+}
+
+.service-title {
+    /* Our best results for */
+    position: absolute;
+    left: 59.15%;
+    top: 12.59%;
+    bottom: 82.3%;
+
+    /* Menu */
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 119% */
+
+    text-align: center;
+
+    /* Black/80% */
+
+    color: #343434;
+}
+
+.service p {
+    /* Failure will never o */
+
+
+position: absolute;
+left: 38.1%;
+top: 20.07%;
+bottom: 77.32%;
+
+/* Subtitle */
+
+font-family: 'Metropolis';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+
+text-align: center;
+
+/* Black/40% */
+
+color: #999999;
+}
+
+.service-conteiner {
+    /* Frame 20 */
+/* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 1166px;
+    height: 457px;
+    left: 135px;
+    top: 255px;
+}
+
+.service-box {
+    /* Product */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 457px;
+
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.box1 { 
+    width: 254px;
+    height: 365px;
+
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more {
+    /* Frame 21 */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 70px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more p {
+    /* iPhone 11 Pro Max Copy */
+    width: 195px;
+    height: 70px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 35px;
+    /* or 167% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
