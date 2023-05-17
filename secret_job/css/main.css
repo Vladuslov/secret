@@ -1629,7 +1629,7 @@ top: 140px;
     color: #343434;
 }
 
-.service p {
+.service-about p {
     /* Failure will never o */
 
 
@@ -1661,12 +1661,12 @@ color: #999999;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 50px;
+    gap: 80px;
 
     position: absolute;
     width: 1166px;
     height: 457px;
-    left: 135px;
+    left: 350px;
     top: 255px;
 }
 
@@ -1731,6 +1731,208 @@ color: #999999;
 
 .service-more p {
     /* iPhone 11 Pro Max Copy */
+    width: 195px;
+    height: 70px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 35px;
+    /* or 167% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.service-box2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 457px;
+
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more2 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 70px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more2 p{
+    width: 195px;
+    height: 70px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 35px;
+    /* or 167% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.service-box3 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 457px;
+
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more3 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 70px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more3 p {
+    width: 195px;
+    height: 70px;
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 35px;
+    /* or 167% */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #363940;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.service-box4 {
+    /* Product */
+/* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 457px;
+
+    border-radius: 9px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more4 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+
+    width: 254px;
+    height: 70px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.service-more4 p {
     width: 195px;
     height: 70px;
 
