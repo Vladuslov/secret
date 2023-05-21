@@ -1957,3 +1957,60 @@ color: #999999;
     order: 0;
     flex-grow: 1;
 }
+
+.results {
+    position: absolute;
+    width: 1920px;
+    height: 662px;
+    left: 0px;
+    top: 3830px;
+}
+
+.results-title {
+    /* Our best results for */
+    position: absolute;
+    height: 43px;
+    left: 32.71%;
+    right: 32.64%;
+    top: calc(50% - 43px/2 - 203.5px);
+
+    /* Menu */
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 119% */
+
+    text-align: center;
+
+    /* Black/80% */
+
+    color: #343434;
+}
+
+.results-header p {
+    /* Failure will never o */
+    position: absolute;
+    height: 44px;
+    left: 30.97%;
+    right: 30.97%;
+    top: calc(50% - 44px/2 - 140px);
+
+    /* Subtitle */
+
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    text-align: center;
+
+    /* Black/40% */
+
+    color: #999999;
+
+}
